@@ -1,0 +1,14 @@
+grade = input("Enter grade (E/V/G/A/F): ").strip().upper()
+
+if grade == "E":
+    print("Excellent")
+elif grade == "V":
+    print("Very Good")
+elif grade == "G":
+    print("Good")
+elif grade == "A":
+    print("Average")
+elif grade == "F":
+    print("Fail")
+else:
+    print("Invalid grade")
